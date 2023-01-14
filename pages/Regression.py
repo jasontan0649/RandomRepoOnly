@@ -9,10 +9,10 @@ from models_features import models_features as mf
 import pickle
 
 st.set_page_config(
-    page_title="Regression Prediction"
+    page_title="Regression"
 )
 
-st.title("Regression Prediction")
+st.title("Regression")
 st.header("Total Spent Prediction")
 
 df = pd.read_csv("processed_data.csv")
