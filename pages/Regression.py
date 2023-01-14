@@ -50,7 +50,7 @@ if st.button('Predict'):
         resDF[col] = label_encoder.transform(resDF[col])
     
 
-    pkl_file = open(f"deployment/models/rf_regressor.pkl", "rb")
+    pkl_file = open(f"deployment/models/regressor.pkl", "rb")
     model = pickle.load(pkl_file)
     pkl_file.close()
     
